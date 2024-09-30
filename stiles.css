@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fruktur:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://unpkg.com/@uiw/reset.css/reset.css');
+ /* DISEÑO RESPONSIVO CON MEDIA QUERIES TABLET PARA ARRIBA*/
+ @media (min-width: 600px) 
+  
+/* */
+
+
+
+
+
+
+ 
+ nav{background-color: darkslategray;}
+ header{background-color: rgb(0, 41, 0);}
+ main{background-color: rgb(0, 0, 0);}
+ aside{background-color: rgb(0, 0, 0);}
+ footer{background-color: rgb;}
+
+ h1{
+  font-family: "Matemasie", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  padding: 1rem; }
+ /* DISEÑO RESPONSIVO CON MEDIA QUERIES MOVIL*/
+ @media (max-width: 600px) 
+/**/
+
+header{grid-area: cabeza;}
+main {grid-area: principal;}
+aside{grid-area: lado;}
+footer{grid-area: pie;} 
+  body {
+       background:gray;
+     }
+     #container {
+         display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: auto 1fr auto;
+         height: 100vh;
+         gap: 1rem;}
+header {grid-area: cabeza;}
+         main {grid-area: principal;}
+         aside{grid-area: lado;}
+         footer{grid-area: pie;}
+
+
+ h1{.fruktur-regular 
+    font-family: "Fruktur", system-ui;
+    font-weight: 400;
+    font-style: normal;}
+  
+  
+  .fruktur-regular-italic {
+    font-family: "Fruktur", system-ui;
+    font-weight: 400;
+    font-style: italic;}
+  
+  body{
+        width: 1200 px;
+        background-color: rgb(0, 0, 0);
+        padding:beige
+    }
+/*espacio*/ 
+    nav { background-color: rgb(0, 0, 0);
+    padding:beige}
+{color: yellow;}
+/* hs*/
+
+h1{color: rgb(173, 1, 1);}
+h2{color: rgb(4, 109, 109);}
+{theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);}
+svg{
+  width: 50%;
+}
+h1, p{
+  padding: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.borde{
+border-radius: 8px 8px 8px 8px;
+}
+
+.clip-otro{
+  width: 50%;
+  float: right;
+  clip-path: circle(50% at 50% 50%);
+  shape-outside: circle(50% at 50% 50%);
+}
+
+
